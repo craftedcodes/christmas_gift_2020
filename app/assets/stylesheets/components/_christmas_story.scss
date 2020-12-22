@@ -1,6 +1,10 @@
  .about-div {
      margin-top: 5%;
      
+     @media screen and (max-width:380px) {
+         margin-top: 10%;
+     }
+
     .about-btn {
             font-size: 1.5rem;
             margin-top: 1rem;
@@ -8,10 +12,6 @@
             padding: 5px 15px 5px 15px;
             color: white;
             text-decoration: none !important;
-
-            @media screen and (max-width:380px) {
-                margin-top: 150%;
-            }
 
             @media screen and (min-width:750px) {
                 margin-top: 72%;

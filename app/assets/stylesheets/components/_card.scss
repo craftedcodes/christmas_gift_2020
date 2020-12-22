@@ -1,26 +1,26 @@
 .card {
     z-index: 3;
-    height: 70%;
-    width: 70%;
+    height: 53%;
+    width: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 45%;
+    top: 50%;
     left: 50%;
     background: #ffffff05;
     padding: 3em;
-    height: 320px;
     border-radius: 20px;
     border: 1px solid #ffffff4d;
     backdrop-filter: blur(10px);
     text-align: center;
 
     @media screen and (max-width:380px) {
-        height: 72%;
-        width: 60%;
+        top: 42%;
+        height: 55%;
+        width: 50%;
     }
 
-    @media screen and (max-width:800px) {
-        height: 75%;
+    @media screen and (min-width:800px) {
+        height: 50%;
         width: 70%;
     }
 }

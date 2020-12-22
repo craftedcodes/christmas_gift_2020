@@ -1,19 +1,16 @@
-.heading {
-    font-family: 'Monsieur La Doulaise',
-    cursive;
-    font-size: 2.5rem;
-    margin-top: -1.5%;
-    margin-bottom: auto;
+.title-heading {
+    font-style: italic;
+    font-size: 4rem;
     background: linear-gradient(345deg, #bf953f 15%, #fcf6ba 35%, #b38728 50%, #fbf5b7 65%, #aa771c 85%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    text-shadow: #ffffff0d;
+    margin-top: 2%;
 
     @media screen and (max-width:380px) {
-        margin-top: -18%;
-        font-size: 1.8rem;
+        margin-top: 10%;
+        font-size: 2rem;
     }
 }

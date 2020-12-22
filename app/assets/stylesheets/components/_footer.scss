@@ -14,7 +14,7 @@
 }
 
 .footer {
-    font-size: 0.5rem;
+    font-size: 1rem;
     color: white;
     display: inline-block;
     
@@ -24,12 +24,11 @@
 }
 
 .craftedcodes {
-    margin-top: 0.5%;
     border: none;
     color: white;
     text-decoration: none !important;
 
-    @media screen and (max-width:800px) {
+    @media screen and (min-width:800px) {
         font-size: 0.8rem;
     }
 }
@@ -37,7 +36,7 @@
 .craftedcodes:hover {
     font-family: 'Monsieur La Doulaise',
     cursive;
-    font-size: 1rem;
+    font-size: 2rem;
     transition-duration: 0.5s;
     background: linear-gradient(345deg, #bf953f 15%, #fcf6ba 35%, #b38728 50%, #fbf5b7 65%, #aa771c 85%);
     -webkit-background-clip: text;

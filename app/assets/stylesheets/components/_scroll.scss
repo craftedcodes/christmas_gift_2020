@@ -1,15 +1,27 @@
 .scroll {
     overflow-y: scroll;
-    height: 70%;
+    height: 80%;
     text-align: left;
+    width: 80%;
+    margin: 0 auto;
 
     p {
         color: #f4f4f4;
         font-weight: 100;
+        width: 95%;
+
+        @media screen and (max-width:380px) {
+            width: 100%;
+        }
     }
 
-    @media screen and (max-width:380px) {
-        height: 72%;
-        margin-top: 2%;
+    @media screen and (min-width:800px) {
+        height: 70%;
+        width: 90%;
+    }
+
+    @media screen and (min-width:1000px) {
+        height: 75%;
+        width: 75%;
     }
 }

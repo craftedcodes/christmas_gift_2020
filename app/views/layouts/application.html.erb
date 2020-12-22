@@ -2,7 +2,8 @@
 <html>
   <head>
     <title>ChristmasGift2020</title>
-
+    <%= favicon_link_tag %>
+    <%= display_meta_tags site: 'Christmas Gift 2020' %>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
   </head>
 
   <body>
+  <h1 class="title-heading"><%= title 'Christmas Gift 2020' %></h1>
     <%= yield %>
     <div class="footer-container">
     <%= render "shared/footer" %>
