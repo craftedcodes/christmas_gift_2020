@@ -15,6 +15,14 @@ a {
     transform: translate(-50%, -50%);
     padding: 20px 20px 20px 20px;
     border: solid 1px white;
+
+    @media screen and (max-width:800px) {
+        font-size: 2rem;
+
+        a:focus {
+            text-decoration: none;
+        }
+    }
 }
 
 a:hover {
@@ -23,4 +31,10 @@ a:hover {
         font-size: 3rem;
         transition-duration: 0.5s;
         border: none;
+        background: linear-gradient(345deg, #bf953f 15%, #fcf6ba 35%, #b38728 50%, #fbf5b7 65%, #aa771c 85%);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
 }

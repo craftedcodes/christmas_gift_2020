@@ -1,19 +1,34 @@
 .footer-container {
-    height: 10%;
+    height: 11%;
     width: 100%;
     position: absolute;
     bottom: 0;
+
+    @media screen and (max-width:380px) {
+        height: 8%;
+    }
+
+    @media screen and (max-width:800px) {
+        height: 9%;
+    }
 }
 
 .footer {
     font-size: 0.5rem;
     color: white;
     display: inline-block;
+    
+    @media screen and (max-width:800px) {
+        font-size: 0.8rem;
+    }
 }
 
 .craftedcodes {
     margin-top: 0.5%;
     border: none;
+    @media screen and (max-width:800px) {
+        font-size: 0.8rem;
+    }
 }
 
 .craftedcodes:hover {

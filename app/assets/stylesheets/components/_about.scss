@@ -1,0 +1,18 @@
+.about-heading {
+    @media screen and (max-width:380px) {
+        margin-bottom: 2%;
+    }
+
+    @media screen and (min-width:750px) {
+    margin-bottom: -70%;
+    }
+}
+
+.about {
+    height: 50%;
+    
+    @media screen and (max-width:380px) {
+        height: 50%;
+        font-size: small;
+    }
+}
