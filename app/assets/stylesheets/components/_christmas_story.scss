@@ -1,17 +1,34 @@
-.about {
-        font-size: 1.5rem;
-        margin-top: 25%;
-        padding: 5px 15px 5px 15px;
+ .about-div {
+     margin-top: 5%;
+     
+    .about-btn {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+            border: solid 1px white;
+            padding: 5px 15px 5px 15px;
+            color: white;
+            text-decoration: none !important;
 
-        @media screen and (max-width:380px) {
-            margin-top: 97%;
+            @media screen and (max-width:380px) {
+                margin-top: 150%;
+            }
+
+            @media screen and (min-width:750px) {
+                margin-top: 72%;
+            }
         }
 
-        @media screen and (min-width:750px) {
-            margin-top: 72%;
+    .about-btn:hover {
+            font-family: 'Monsieur La Doulaise',
+            cursive;
+            font-size: 3rem;
+            background: linear-gradient(345deg, #bf953f 15%, #fcf6ba 35%, #b38728 50%, #fbf5b7 65%, #aa771c 85%);
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fill-color: transparent;
+            border: none;
+            transition-duration: 0.5s;
         }
-    }
-
-.about:hover {
-        font-size: 2rem;
     }

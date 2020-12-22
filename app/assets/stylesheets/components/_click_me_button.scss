@@ -4,7 +4,7 @@
     text-align: center;
 }
 
-a {
+.click-me {
     color: white;
     text-decoration: none !important;
     margin: 0;
@@ -19,17 +19,16 @@ a {
     @media screen and (max-width:800px) {
         font-size: 2rem;
 
-        a:focus {
+        .click-me:focus {
             text-decoration: none;
         }
     }
 }
 
-a:hover {
+.click-me:hover {
         font-family: 'Monsieur La Doulaise',
         cursive;
         font-size: 3rem;
-        transition-duration: 0.5s;
         border: none;
         background: linear-gradient(345deg, #bf953f 15%, #fcf6ba 35%, #b38728 50%, #fbf5b7 65%, #aa771c 85%);
         -webkit-background-clip: text;
@@ -37,4 +36,5 @@ a:hover {
         background-clip: text;
         -webkit-text-fill-color: transparent;
         -moz-text-fill-color: transparent;
+        transition-duration: 0.5s;
 }
