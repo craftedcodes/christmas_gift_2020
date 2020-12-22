@@ -1,0 +1,24 @@
+.footer-container {
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer {
+    font-size: 0.5rem;
+    color: white;
+    display: inline-block;
+}
+
+.craftedcodes {
+    margin-top: 0.5%;
+    border: none;
+}
+
+.craftedcodes:hover {
+    font-family: 'Monsieur La Doulaise',
+    cursive;
+    font-size: 1rem;
+    transition-duration: 0.5s;
+}
