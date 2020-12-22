@@ -3,11 +3,11 @@ Rails.application.routes.draw do
   # LANDING PAGE
   root to: 'pages#home'
   # CHRISTMAS STORY PAGE
-  GET '/christmas_story_venardou', to: 'pages#christmas_story_venardou'
+  get '/christmas_story_venardou', to: 'pages#christmas_story_venardou'
   # ABOUT PAGE
-  GET '/about', to: 'pages#about'
+  get '/about', to: 'pages#about'
   # ERROR PAGES
-  GET '/404', to: 'errors#not_found'
-  GET '/422', to: 'errors#unacceptable'
-  GET '/500', to: 'errors#internal_error'
+  get '/404', to: 'errors#not_found'
+  get '/422', to: 'errors#unacceptable'
+  get '/500', to: 'errors#internal_error'
 end
