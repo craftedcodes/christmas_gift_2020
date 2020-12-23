@@ -1,8 +1,6 @@
 .scroll {
     overflow-y: scroll;
-    height: 80%;
     text-align: left;
-    width: 80%;
     margin: 0 auto;
 
     p {
@@ -23,7 +21,7 @@
     }
 
     @media screen and (min-width:1000px) {
-        height: 95%;
+        height: 70%;
         width: 75%;
     }
 }
