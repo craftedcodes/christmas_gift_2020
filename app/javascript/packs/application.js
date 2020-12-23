@@ -16,4 +16,4 @@ require("channels");
 
 // imported JS files
 
-import { scrollMouse } from "../scripts/hidden";
+import { scrollMouse } from "./scripts/hidden";

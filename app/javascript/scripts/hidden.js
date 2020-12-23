@@ -8,7 +8,7 @@ const scrollMouse = () => {
   // checking if the id exists on the element makes it possible to choose on which page it's goiing to be loaded
   const hide = document.getElementById("hidden");
   if (mediaQuery.matches) {
-    hideMouse;
+    hideMouse();
   }
 };
 
