@@ -13,7 +13,3 @@ require("channels");
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
-
-// imported JS files
-
-import { scrollMouse } from "./scripts/hidden";
