@@ -8,11 +8,13 @@
     p {
         color: #f4f4f4;
         font-weight: 100;
-        width: 95%;
+        width: 100%;
 
-        @media screen and (max-width:380px) {
-            width: 100%;
-        }
+    }
+
+    @media screen and (max-width:380px) {
+        height: 70%;
+        width: 100%;
     }
 
     @media screen and (min-width:800px) {
