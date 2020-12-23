@@ -3,7 +3,7 @@
 
     @media screen and (max-width:380px) {
         margin-bottom: 2%;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     @media screen and (min-width:750px) {
@@ -22,6 +22,8 @@
     }
     p {
         font-size: 0.9rem;
+
+
     }
 
     span {
@@ -35,10 +37,15 @@
 }
 
 ul {
+    position: absolute;
     text-align: left;
     display: flex;
     flex-direction: row;
     width: 70%;
+
+    @media screen and (max-width:380px) {
+        bottom: 0;
+    }
 
     li {
         list-style: none;
@@ -55,12 +62,16 @@ ul {
 
         h4 {
             font-weight: 200;
+
+            @media screen and (max-width:380px) {
+                font-size: 0.9rem;
+            }
         }
 
         h5 {
-            font-size: 0.8rem;
+            font-size: 0.5rem;
             font-style: italic;
-            margin-top: -10%;
+            margin-top: -15%;
         }
 
         .contact {
@@ -71,7 +82,7 @@ ul {
             border: none;
 
             @media screen and (max-width:380px) {
-                margin-top: -2%;
+                margin-top: -10%;
                 font-size: 0.9rem;
             }
 
