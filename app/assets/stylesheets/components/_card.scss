@@ -4,7 +4,7 @@
     width: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 50%;
+    top: 48%;
     left: 50%;
     background: #ffffff05;
     padding: 3em;
@@ -14,8 +14,8 @@
     text-align: center;
 
     @media screen and (max-width:380px) {
-        top: 42%;
-        height: 55%;
+        top: 45%;
+        height: 65%;
         width: 50%;
     }
 

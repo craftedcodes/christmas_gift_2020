@@ -23,6 +23,15 @@
     p {
         font-size: 0.9rem;
     }
+
+    span {
+        font-size: 1.2rem;
+        font-style: italic;
+
+        @media screen and (max-width:380px) {
+            font-size: 0.9rem;
+        }
+    }
 }
 
 ul {
@@ -44,27 +53,37 @@ ul {
             margin: 0 auto;
         }
 
+        h4 {
+            font-weight: 200;
+        }
+
         h5 {
-            font-size: 0.5rem;
-            margin-top: -15%;
+            font-size: 0.8rem;
+            font-style: italic;
+            margin-top: -10%;
         }
 
         .contact {
-            font-size: 0.7rem;
+            font-size: 1.1rem;
             color: white;
             text-decoration: none;
             text-align: left;
             border: none;
 
+            @media screen and (max-width:380px) {
+                margin-top: -2%;
+                font-size: 0.9rem;
+            }
+
             @media screen and (max-width:800px) {
-                font-size: 0.8rem;
+                font-size: 0.9rem;
             }
         }
 
         .contact:hover {
             font-family: 'Monsieur La Doulaise',
             cursive;
-            font-size: 1.1rem;
+            font-size: 1.7rem;
             background: linear-gradient(345deg, #bf953f 15%, #fcf6ba 35%, #b38728 50%, #fbf5b7 65%, #aa771c 85%);
             -webkit-background-clip: text;
             -moz-background-clip: text;
