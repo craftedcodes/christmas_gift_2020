@@ -56,6 +56,7 @@ ul {
 
         h4 {
             font-weight: 200;
+            font-size: 1.2rem;
 
             @media screen and (max-width:380px) {
                 font-size: 0.9rem;
@@ -63,9 +64,14 @@ ul {
         }
 
         h5 {
-            font-size: 0.5rem;
+            font-size: 0.9rem;
             font-style: italic;
-            margin-top: -15%;
+            margin-top: -10%;
+
+            @media screen and (max-width:380px) {
+                font-size: 0.5rem;
+                margin-top: -15%;
+            }
         }
 
         .contact {
